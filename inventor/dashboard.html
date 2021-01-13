@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Investors App - Dashboard</title>
+    <!-- plugins:css -->
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="assets/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- End Layout styles -->
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-scroller">
+      <!-- partial:partials/_navbar.html -->
+      <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+        <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
+          <a class="navbar-brand brand-logo" href="index.html">
+            <img src="../assets/images/logo.png" alt="logo" /> </a>
+          <a class="navbar-brand brand-logo-mini" href="index.html">
+            <img src="../assets/images/logo.png" alt="logo" /> </a>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-center">
+          <ul class="navbar-nav">
+            <li class="nav-item font-weight-semibold d-non d-lg-block">
+              <form class="ml-aut search-form d-non d-md-block" action="#">
+                <div class="form-group">
+                  <input type="search" class="form-control" placeholder="Search Here">
+                </div>
+              </form>
+            </li>
+          </ul>
+          
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a href="post-invention.html" style="text-decoration: none;">
+                      <img src="../assets/images/create-icon.png" class="mt-2" width="45" alt="">
+                    <span class="pi">post invention</span>
+                    </a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link count-indicator" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                <i class="material-icons md-24">notifications_none</i>
+                <span class="count">7</span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list pb-0" aria-labelledby="messageDropdown">
+                <a class="dropdown-item py-3">
+                  <p class="mb-0 font-weight-medium float-left">You have 7 unread mails </p>
+                  <span class="badge badge-pill badge-primary float-right">View all</span>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <img src="../assets/images/pic-1.png" alt="image" class="img-sm profile-pic">
+                  </div>
+                  <div class="preview-item-content flex-grow py-2">
+                    <p class="preview-subject ellipsis font-weight-medium text-dark">Marian Garner </p>
+                    <p class="font-weight-light small-text"> The meeting is cancelled </p>
+                  </div>
+                </a>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <img src="assets/images/faces/face12.jpg" alt="image" class="img-sm profile-pic">
+                  </div>
+                  <div class="preview-item-content flex-grow py-2">
+                    <p class="preview-subject ellipsis font-weight-medium text-dark">David Grey </p>
+                    <p class="font-weight-light small-text"> The meeting is cancelled </p>
+                  </div>
+                </a>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <img src="assets/images/faces/face1.jpg" alt="image" class="img-sm profile-pic">
+                  </div>
+                  <div class="preview-item-content flex-grow py-2">
+                    <p class="preview-subject ellipsis font-weight-medium text-dark">Travis Jenkins </p>
+                    <p class="font-weight-light small-text"> The meeting is cancelled </p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown d-none d-xl-inline-block user-dropdown" style="margin-bottom: 10px;">
+              <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                <img class="img-xs rounded-circle" src="../assets/images/pic-1.png" alt="Profile image"> </a>
+              <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+                <div class="dropdown-header text-center">
+                  <img class="img-md rounded-circle" src="../assets/images/pic-1.png" alt="Profile image">
+                  <p class="mb-1 mt-3 font-weight-semibold">Allen Moreno</p>
+                  <p class="font-weight-light text-muted mb-0">allenmoreno@gmail.com</p>
+                </div>
+                <a class="dropdown-item">My Profile <span class="badge badge-pill badge-danger">1</span><i class="dropdown-item-icon ti-dashboard"></i></a>
+                <a class="dropdown-item">Messages<i class="dropdown-item-icon ti-comment-alt"></i></a>
+                <a class="dropdown-item">Activity<i class="dropdown-item-icon ti-location-arrow"></i></a>
+                <a class="dropdown-item">FAQ<i class="dropdown-item-icon ti-help-alt"></i></a>
+                <a class="dropdown-item">Sign Out<i class="dropdown-item-icon ti-power-off"></i></a>
+              </div>
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+            <span class="material-icons">menu</span>
+          </button>
+        </div>
+      </nav>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav mt-5" style="margin-top: 30px;">
+            
+            <li class="nav-item nav-category"></li>
+            <li class="nav-item ">
+              <a class="nav-link active" href="dashboard.html">
+                <i class="material-icons">dashboard</i>
+                <span class="menu-title">
+                    &nbsp;Dashboard
+                </span>
+              </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html">
+                <i class="material-icons">person_outline</i>
+                  <span class="menu-title">
+                    &nbsp;Profile
+                </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="all-invention.html">
+                    <i class="material-icons">widgets</i>
+                  <span class="menu-title">
+                    &nbsp;My Inventions
+                </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="post-invention.html">
+                    <i class="material-icons">control_point</i>
+                  <span class="menu-title">
+                    &nbsp;Post Invention
+                </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">
+                    <i class="material-icons">exit_to_app</i>
+                  <span class="menu-title">
+                    &nbsp;Sign out
+                </span>
+                </a>
+              </li>
+          </ul>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <!-- Page Title Header Starts-->
+            <div class="row page-title-header">
+              <div class="col-md-12 mt-5">
+                <div class="page-header">
+                  <h3 class="page-title"><b>Dashboard</b><span class="username">Welcome, <br><b>Samson Samuels</b></span></h3>
+                  <!--  -->
+                  <!-- <div class="quick-link-wrapper w-100 d-md-flex flex-md-wrap">
+                    <ul class="quick-links ml-auto">
+                      <li style="float: right;">Welcome, <br><b>Samson Samuels</b></li>
+                    </ul>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <!-- Page Title Header Ends-->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="dash-card">
+                        <div class="pb-0">
+                            <div class="row mb-3">
+                            <div class="col-md-12">
+                                <img src="../assets/images/approved.png" width="70" class="img-fluid" alt="">
+                            </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <p class="mb-0">Approved<br>Projects</p>
+                                </div>
+                                <div class="col-6">
+                                    <h1 class="font-weight-medium float-right"><b>20</b></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="dash-card">
+                        <div class="pb-0">
+                            <div class="row mb-3">
+                            <div class="col-md-12">
+                                <img src="../assets/images/pending.png" width="70" class="img-fluid" alt="">
+                            </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <p class="mb-0">Pending<br>Projects</p>
+                                </div>
+                                <div class="col-6">
+                                    <h1 class="font-weight-medium float-right"><b>5</b></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="dash-card">
+                        <div class="pb-0">
+                            <div class="row mb-3">
+                            <div class="col-md-12">
+                                <img src="../assets/images/signed-contract.png" width="70" class="img-fluid" alt="">
+                            </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <p class="mb-0">Signed<br>Contracts</p>
+                                </div>
+                                <div class="col-6">
+                                    <h1 class="font-weight-medium float-right"><b>0</b></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5">
+                <h4 class=""><b>Inventions Overview</b><span class="username"><a href="all-invention.html">See all <i class="material-icons md-18">chevron_right</i></a></span></h4>
+            </div>
+            <div class="row">                
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="card">
+                      <div class="card-body">
+                            <div class="row">
+                              <div class="col-md-6">
+                                  <div class="dropdown">
+                                    <div class="text-center filter-div mb-3 curs" id="dropdownMenuButton"    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span><i class="material-icons md-18 mt-2">filter_alt</i> Filter</span>
+                                    </div>
+                                    <div class="dropdown-menu dd" aria-labelledby="dropdownMenuButton">
+                                        <p class="dropdown-item" href="#">SORT BY:</p>
+                                        <form action="#">
+                                          <p>
+                                            <input type="radio" id="test1" name="radio-group" checked>
+                                            <label for="test1">Default</label>
+                                          </p>
+                                          <p>
+                                            <input type="radio" id="test2" name="radio-group">
+                                            <label for="test2">Amount Invested</label>
+                                          </p>
+                                          <p>
+                                            <input type="radio" id="test3" name="radio-group">
+                                            <label for="test3">Published Date</label>
+                                          </p>
+                                          <p>
+                                            <input type="radio" id="test4" name="radio-group">
+                                            <label for="test4">Views</label>
+                                          </p>
+                                          <p>
+                                            <input type="radio" id="test5" name="radio-group">
+                                            <label for="test5">Likes</label>
+                                          </p>
+                                        </form>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-6">
+                                <form action="">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control fc" placeholder="Search by Title or Pubished Date">
+                                    </div>
+                                </form>
+                              </div>
+                            </div>    
+                        <table class="table table-hover table-responsive" style="width: 100%;">
+                          <thead style="background-color: #F4F2FF;">
+                            <tr>
+                              <th> S/N </th>
+                              <th> Invention Title </th>
+                              <th> Amount Required </th>
+                              <th> Amount Invested </th>
+                              <th> No. of Investors </th>
+                              <th> Total Likes </th>
+                              <th> Total Views </th>
+                              <th> Published Date </th>
+                              <th> <i class="material-icons md-18">more_vert</i> </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="py-1">
+                                  1
+                              </td>
+                              <td> Electric Car </td>
+                              <td>
+                                $ 450,000,000
+                              </td>
+                              <td> $ 7,700.99 </td>
+                              <td> 5 </td>
+                              <td> 240 </td>
+                              <td> 504 </td>
+                              <td> May 15, 2015 </td>
+                              <td> <i class="material-icons md-18 curs"  id="dropdownMenuButton"    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">more_vert</i> 
+                                <div class="dropdown-menu dd" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Edit</a>
+                                    <a class="dropdown-item" href="invention-details.html">View</a>
+                                    <a class="dropdown-item" href="#" style="color: red;">Delete</a>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                                <td class="py-1">
+                                    2
+                                </td>
+                                <td> Electric Car </td>
+                                <td>
+                                  $ 450,000,000
+                                </td>
+                                <td> $ 7,700.99 </td>
+                                <td> 5 </td>
+                                <td> 240 </td>
+                                <td> 504 </td>
+                                <td> May 15, 2015 </td>
+                                <td> <i class="material-icons md-18 curs"  id="dropdownMenuButton"    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">more_vert</i> 
+                                    <div class="dropdown-menu dd" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Edit</a>
+                                        <a class="dropdown-item" href="invention-details.html">View</a>
+                                        <a class="dropdown-item" href="#" style="color: red;">Delete</a>
+                                    </div>
+                                  </td>
+                              </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <!-- content-wrapper ends -->
+          <!-- partial:partials/_footer.html -->
+          <footer class="footer">
+            <div class="container-fluid clearfix">
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © Investors App 2021</span>
+            </div>
+          </footer>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="../assets/js/addons.js"></script>
+
+    <script src="../assets/js/off-canvas.js"></script>
+
+    <!-- Custom js for this page-->
+    <script src="../assets/js/dashboard.js"></script>
+    <!-- End custom js for this page-->
+    <script src="../assets/js/jquery.cookie.js" type="text/javascript"></script>
+  </body>
+</html>
