@@ -1098,6 +1098,190 @@ border: 1px solid #e0e0e0;
 
 /*********End********/
 
+.invention-banner {
+  width: 80%; 
+  height: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.rec-details {
+  width: 80%; 
+  padding: 20px; 
+  background-color: #FBFBFB;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+@media(max-width: 768px) {
+  .invention-banner {
+    width: 100%;
+  }
+
+  .mmml {
+    margin-left: 0px;
+  }
+
+  .rec-details {
+    width: 100%; 
+    padding: 20px; 
+    background-color: #FBFBFB;
+  }
+}
+
+.rec-details h4,h5 {
+  font-weight: bold;
+}
+
+.rec-details .from {
+  font-size: 14px;
+  font-weight: normal;
+  color: #9D9F9F;
+}
+
+.rec-details .pd {
+  margin-top: -5px;
+  color: #9D9F9F;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: coral;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.pagination {
+  padding: 2px 10px;
+  background-color: transparent;
+  border: 1px solid #DFDFDF;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 5px;
+  color: #444;
+  text-align: center;
+}
+
+.paginate.pagination {
+  float: right;
+}
+
+.post-invention {
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+
+/* .rec-details .btn-invest {
+  float: right;
+} */
+
+
+
+.btn-invest {
+  border: 1px solid #0489C7;
+  color: #0489C7;
+  font-size: 9px!important;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 20px!important;
+  float: right;
+}
+
+.btn-invest:hover {
+  background-color: #0489C7;
+  color: #fff;
+}
+@media(max-width: 768px) {
+  .btn-invest {
+    border: 1px solid #0489C7;
+    color: #0489C7;
+    font-size: 9px!important;
+    border-radius: 8px;
+    margin-top: 20px!important;
+  }
+}
+
+
+.inventor-profile {
+  height: auto;
+  padding: 20px 20px 20px 20px; 
+  border-radius: 10px; 
+  background-color: #fbfbfb;
+}
+
+.inventor-profile p {
+  color: #969696;
+}
+
+.details_ {
+  width: 100%; 
+  background-color: #fff; 
+  border-radius: 10px; 
+  padding: 20px; 
+  height: 70px;
+}
+
+.details_ p {
+  margin-top: -7px;
+  margin-bottom: 0px;
+  color: #9D9F9F;
+}
+
+.details__ {
+  width: 100%; 
+  background-color: #fff; 
+  border-radius: 10px; 
+  padding: 20px; 
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.details__ p {
+  margin-top: -7px;
+  margin-bottom: 0px;
+  color: #9D9F9F;
+}
+
+.vl {
+  border-left: 4px solid green;
+  height: 30px!important;
+  position: absolute;
+}
+
+@media(max-width: 768px) {
+  .inventor-profile {
+    height: auto;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .details_ {
+    margin-top: 20px!important;
+    width: 100%;
+  }
+
+  .details__ {
+    margin-top: -5px!important;
+    width: 100%;
+  }
+
+  .pd-b {
+    /* margin-top: 5px; */
+  }
+
+  .invention-img {
+    margin-bottom: 20px;
+  }
+}
+
+.review {
+  color: orange;
+}
+
+.ii {
+  color: #9D9F9F;
+}
 /***********Custom Input File CSS***********/
 
 @font-face {
