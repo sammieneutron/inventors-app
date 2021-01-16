@@ -881,9 +881,10 @@ footer p,li,h5 {
 }
 
 .mobile-phone {
-  margin-top: -200px;
-  width: 95%
+  margin-top: -120px;
+  width: 80%
 }
+
 
 .mobile-apps {
   width: 120px;
@@ -960,15 +961,8 @@ footer p,li,h5 {
   height: 100%;
 }
 
-.swiper-slides {
-  margin: 0;
-}
 
 .swiper-slide {
-  /* text-align: center; */
-  /* font-size: 18px; */
-  /* background: #fff; */
-
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -999,7 +993,7 @@ footer p,li,h5 {
   display: block;
 }
 
-.swiper-slide h5 {
+.inventor_ h5 {
   position: absolute;
   font-weight: 900;
   margin: 20px;
@@ -1008,7 +1002,7 @@ footer p,li,h5 {
   color: #000!important;
 }
 
-.swiper-slide p {
+.inventor_ p {
   position: absolute;
   font-weight: 600;
   margin: 45px 0 0 20px;
@@ -1065,7 +1059,7 @@ footer p,li,h5 {
   padding: 5px 10px;
 }
 
-.swiper-slide .view-invent-btn {
+.inventor_ .view-invent-btn {
   position: absolute;
   font-weight: 600;
   margin: 45px 0 20px 20px;
@@ -1074,13 +1068,13 @@ footer p,li,h5 {
   left: 0;
 }
 @media(max-width: 768px) {
-  .swiper-slide h5 {
+  .inventor_ h5 {
     margin: 10px;
     font-size: 14px;
     color: #000!important;
   }
 
-  .swiper-slide p {
+  .inventor_ p {
     margin: 30px 0 0 10px;
     font-size: 9px;
     color: #000!important;
@@ -1094,7 +1088,7 @@ footer p,li,h5 {
     /* display: none;  */
   }
 
-  .swiper-slide .view-invent-btn {
+  .inventor_ .view-invent-btn {
     position: absolute;
     font-weight: 600;
     margin: 45px 0 10px 10px;
@@ -1139,7 +1133,141 @@ span a {
 .inventor-img {
 
 }
+
+.investor_ {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.investors-info {
+  border-radius: 40px; 
+  border: 1px solid #E0E0E0; 
+  padding: 15px 30px;
+  margin: 20px;
+}
+
+.investors-info:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(158, 158, 158, 0.08);
+}
+
+.investors-img {
+  width: 100px; 
+  position: relative;
+  margin-top: -40px; 
+  margin-right: -70px!important; 
+  z-index: 9999;
+  right: 0;
+  float: right!important;
+}
+
+.investors-details .i-h4 {
+  font-weight: 900;
+  font-size: 24px;
+  color: #000;
+}
+
+.investors-details .i-p {
+  color: #37474F;
+  font-size: 10px!important;
+}
+
+.investors-details .i-h5 {
+  color: #344147;
+  font-weight: 900;
+}
+
+.investors-details span {
+  padding: 3px 7px;
+  background-color: #FFDD7C;
+  font-size: 7px;
+  border-radius: 5px;
+}
+
+.stats {
+  border: 1px solid #E0E0E0; 
+  border-radius: 20px; 
+  padding: 10px 20px 5px;
+  margin: 10px;
+}
+
+.stat-details h3 {
+  font-weight: 900;
+}
+
+.stats p {
+  margin-top: 5px;
+  color: #555555;
+}
+
+.stats h4 {
+  color: #2f2f2f;
+  font-weight: 900;
+  margin-top: -10px;
+}
+
+@media(max-width: 1200px) {
+  .investors-info {
+    padding: 10px 20px;
+    max-width: 500px;
+    margin: 10px!important;
+    border-radius: 30px;
+  }
+
+  .investors-details .i-h4 {
+    font-weight: 900;
+    font-size: 18px!important;
+    color: #000;
+  }
+
+  .swiper-slide > .investors-info {
+    width: 100%!important;
+  }
+  .investors-img {
+    width: 90px!important; 
+    position: relative;
+    margin-top: -30px; 
+    margin-right: -30px!important; 
+    z-index: 9999;
+    right: 0;
+    float: right!important;
+  }
+
+  .investors-details .i-p {
+    color: #37474F;
+    font-size: 12px!important;
+  }
+
+  .investors-details span {
+    padding: 3px 6px;
+    background-color: #FFDD7C;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+
+  .investors-details .i-h5 {
+    color: #344147;
+    font-weight: 900;
+    font-size: 14px;
+  }
+}
+
 @media(max-width: 768px) {
+  .swiper-slide > .investors-info {
+    max-width: 100%!important;
+  }
+
   .call-action {
       padding: 60px 0 60px 0;
   }
@@ -1153,7 +1281,7 @@ span a {
   }
 
   .swiper-slide {
-    width: 130px!important;
+    width: 190px!important;
   }
 }
 
