@@ -792,12 +792,6 @@ body {
   padding: 20px;
 }
 
-.to-center {
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* justify-items: center; */
-  /* text-align: center; */
-}
 .pi {
   text-decoration: none; 
   font-size: 10px; 
@@ -812,10 +806,15 @@ body {
 }
 
 .it a {
-  font-size: 16px;
+  font-size: 14px;
   color: #BBB9B9;
   font-weight: 600;
-  margin: 10px;
+  margin-right: 20px;
+}
+
+.ddm a {
+  margin-bottom: 10px;
+  color: #0489C7!important;
 }
 
 .btn-acc {
@@ -1863,6 +1862,22 @@ a.active {
 	outline: none;
 	color: #0489C7;
 	text-decoration: none;
+}
+
+@media(max-width: 992px) {
+  .ml-auto,
+  .mx-auto {
+  margin-left: 0px !important; }
+}
+
+@media(min-width: 992px) {
+  .navbar-nav.dropdown-menu.show {
+    margin: 0;
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+    float: left;
+  }
 }
 
 a:hover,
