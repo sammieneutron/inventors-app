@@ -830,6 +830,37 @@ body {
   padding: 5rem !important;
 }
 
+.login-auth {
+  border-radius: 10px; 
+  border: 1px solid #DEDEDE; 
+  padding: 10px 0; 
+  width: 80%;
+}
+
+.tw {
+  background-color: #F1FAFA;
+}
+
+.hh p {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #dedede; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+  color: #A7A8A8;
+} 
+
+.hh span { 
+   background:#fff; 
+   padding:0 10px; 
+}
+
+@media(max-width: 768px) {
+  .p-6 {
+    padding: 3rem !important;
+  }
+}
+
 .about-section h3{
   font-weight: 900;
 }
@@ -942,6 +973,51 @@ body {
   padding: 10px;
   min-height: 100px;
 }
+
+.login-form h4 {
+  font-weight: 900;
+}
+
+.pri-color {
+  color: #0489C7;
+}
+
+.pri-bg-color {
+  background-color: #0489C7;
+  color: #fff;
+}
+
+.login-button {
+  height: 60px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+@media(max-width: 768px) {
+  .login-button {
+    height: 55px;
+  }
+}
+.login-form input {
+  background-color: #F8FBFF;
+}
+
+.login-form select {
+  background-color: #F8FBFF;
+}
+
+select > option {
+  font-size: medium !important;
+}
+
+
+.float-right {
+  float: right!important;
+}
+
+.float-left {
+  float: left!important;
+}
 @media(max-width: 768px) {
   .side {
     height: 100%;
@@ -966,7 +1042,7 @@ body {
   right: 0;
   background-color: #FF0044;
   color: #fff;
-  margin-top: -58px;
+  margin-top: -54px;
   margin-right: 15px;
   padding: 15px 30px;
   border-radius: 15px;
@@ -975,11 +1051,15 @@ body {
 
 .form-control-lg {
   width: 100%;
-  height: 70px;
+  height: 55px;
   background-color: #fff;
   border: none;
   border-radius: 20px;
   border: 1px solid #f7f7f7;
+}
+
+::placeholder {
+  font-size: medium;
 }
 
 input.form-control-lg:focus {
