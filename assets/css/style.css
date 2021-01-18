@@ -1066,7 +1066,11 @@ input.form-control-lg:focus {
   border: 1px solid #0489C7!important;
 }
 
-footer p,li,h5 {
+footer p,li {
+  color: #fff;
+}
+
+footer h5 {
   color: #fff;
 }
 
