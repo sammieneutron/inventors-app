@@ -817,6 +817,102 @@ body {
   color: #0489C7!important;
 }
 
+.bg-blue {
+  background: rgba(4, 137, 199, 0.79);
+}
+
+.about h3 {
+  color: white;
+  font-weight: 900;
+}
+
+.p-6 {
+  padding: 5rem !important;
+}
+
+.about-section h3{
+  font-weight: 900;
+}
+
+.about-section p {
+  color: #848484;
+  font-size: large;
+  margin-top: 1rem;
+}
+
+.contact-details p {
+  font-size: large;
+  color: #848484;
+}
+
+.contact-details {
+  border-radius: 1rem; 
+  border: 1px solid #F9F9F9;
+  padding: 20px 0 0 0;
+  color: #0489C7!important
+}
+
+@media(max-width: 768px) {
+  .contact-details {
+    margin-bottom: 10px;
+  }
+}
+
+.contact-details:hover {
+  background-color: #0489C7;
+  color: #fff!important;
+  transition: 0.7s;
+}
+
+.contact-details p:hover {
+  color: #fff!important;
+}
+
+.contact-icon {
+  color: #0489C7;
+}
+
+.socials {
+  margin-top: 30px;
+}
+
+.socials img {
+  margin-right: 15px;
+  width: 30px;
+}
+
+.contact-form h3 {
+  font-weight: 900;
+}
+
+.contact-form .p1 {
+  color: #0489C7;
+}
+
+.contact-form .p2 {
+  color: #A4A4A4;
+}
+
+.send-msg-btn {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #0489C7;
+  box-sizing: border-box;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #0489C7;
+  color: #fff;
+}
+
+@media(max-width: 768px) {
+  .socials {
+      margin-bottom: 30px;
+  }
+
+  .socials img {
+      margin-left: 10px;
+      width: 40px;
+  }
+}
 .btn-acc {
   border: 1px solid #0489C7;
   color: #0489C7!important;
@@ -824,6 +920,32 @@ body {
   font-weight: 600;
   padding: 10px 20px;
   border-radius: 10px;
+}
+
+.side {
+  height: 1000px; 
+  border-top: 1px solid #DFDFDF; 
+  border-right: 1px solid #DFDFDF; 
+  background-color: #FBFBFB;
+}
+
+.side-header {
+  padding: 20px 20px 5px 20px; 
+  border-bottom: 1px solid #DFDFDF;
+}
+
+.side-header h4 {
+  font-weight: 900;
+}
+
+.side-body {
+  padding: 10px;
+  min-height: 100px;
+}
+@media(max-width: 768px) {
+  .side {
+    height: 100%;
+  }
 }
 
 .hero_h1 {
@@ -931,7 +1053,7 @@ footer p,li,h5 {
 
 .invent-details p {
   color: #909090;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .invent-details h3 {
@@ -1022,7 +1144,7 @@ footer p,li,h5 {
 .invent-details .invent-amount {
   position: absolute;
   font-weight: 600;
-  margin: 20px 30px 0 0;
+  margin: 10px 25px 0 0;
   font-size: 10px;
   top: 0;
   right: 0;
@@ -1044,7 +1166,7 @@ footer p,li,h5 {
 .invent-details .invent-name {
   position: absolute;
   font-weight: 600;
-  margin: 0 0 30px 30px;
+  margin: 0 0 15px 25px;
   font-size: 10px;
   bottom: 0;
   left: 0;
@@ -1104,13 +1226,12 @@ footer p,li,h5 {
     padding: 5px;
   }
 
-  .invent-details .invent-amount {
-    position: absolute;
-    font-weight: 600;
-    margin: 0 0 10px 10px;
-    /* font-size: 10px; */
-    bottom: 0;
-    left: 0;
+  .invent-details .invent-name {
+    display: none;
+  }
+
+  .invent-details .invent-name {
+    display: none;
   }
 
   .invent-amount {
@@ -1262,6 +1383,16 @@ span a {
   }
 }
 
+.play-video {
+  width: 100%;
+  height: 500px;
+}
+
+.play-audio {
+  width: 100%;
+  height: 500px;
+}
+
 @media(max-width: 768px) {
   .swiper-slide > .investors-info {
     max-width: 100%!important;
@@ -1281,6 +1412,20 @@ span a {
 
   .swiper-slide {
     width: 190px!important;
+  }
+
+  .cc {
+    margin-top: -10px;
+  }
+
+  .play-video {
+    width: 100%;
+    height: 200px;
+  }
+
+  .play-audio {
+    width: 100%;
+    height: 200px;
   }
 }
 
@@ -1591,7 +1736,7 @@ display: inline;
 }
 ul.ks-cboxtags li label{
   display: inline-block;
-  background-color: rgba(255, 255, 255, .9);
+  /* background-color: rgba(255, 255, 255, .9); */
   border: 1px solid rgba(139, 139, 139, .3);
   color: #555;
   font-size: 12px!important;
@@ -1632,6 +1777,12 @@ border: 1px solid #e0e0e0;
 }
 
 /*********End********/
+
+.invention {
+  border: 1px solid #DFDFDF; 
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
 
 .invention-banner {
   width: 80%; 
@@ -1713,7 +1864,7 @@ border: 1px solid #e0e0e0;
 } */
 
 .invent-gallery-img {
-  max-width: 170px!important;
+  max-width: 120px!important;
 }
 
 @media(max-width: 992px) {

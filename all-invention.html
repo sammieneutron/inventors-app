@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Investors App</title>
+    <link rel="stylesheet" href="assets/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- End Layout styles -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-">
+        <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.png" width="130" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse"></div> 
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-right: 50px;">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active it">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item it">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item it">
+                  <a class="nav-link" href="all-invention.html">All Inventions</a>
+              </li>
+              <li class="nav-item it">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item" style="margin-top: 10px;">
+                  <span class="dropdown">
+                      <a class="btn btn-acc btn-md my-2 my-sm-0" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account <i class="material-icons">expand_more</i></a>
+                      <div class="dropdown-menu ddm mt-3" style="" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item ac" href="login.html">Login</a>
+                          <a class="dropdown-item ac" href="inventor-register.html">Register as Inventor</a>
+                          <a class="dropdown-item ac" href="investor-register.html">Register as Investor</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item ac" href="investor/">Invest</a>
+                          <a class="dropdown-item ac" href="inventor/post-invention.html">Post Invention</a>
+                          </div>
+                    </span>
+              </li>
+            </ul>
+            
+        </div>
+    </nav>
+
+    <section class="">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="side">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="side-header">
+                                <h4>Industry <span class="pull-right float-right"><small>see all <i class="fa fa-send"></i></small></span></h4>
+                            </div>
+                            <div class="side-body">
+                                <ul class="ks-cboxtags">
+                                    <li><input type="checkbox" id="checkboxOne" value="technology"><label for="checkboxOne">Technology</label></li>
+                                    <li><input type="checkbox" id="checkboxTwo" value="sport" checked><label for="checkboxTwo">Sport</label></li>
+                                    <li><input type="checkbox" id="checkboxThree" value="sport" ><label for="checkboxThree">Music</label></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="side-header">
+                                <h4>Tags <span class="pull-right float-right"><small>see all <i class="fa fa-send"></i></small></span></h4>
+                            </div>
+                            <div class="side-body">
+                                <ul class="ks-cboxtags">
+                                    <li><input type="checkbox" id="checkbox1" value="technology"><label for="checkbox1">Technology</label></li>
+                                    <li><input type="checkbox" id="checkbox2" value="sport" checked><label for="checkbox2">Sport</label></li>
+                                    <li><input type="checkbox" id="checkbox3" value="sport" ><label for="checkbox3">Music</label></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="p-3 invention">
+                    <div class="row invent-details">
+                        <div class="col-3">
+                            <div class="">
+                                <img src="assets/images/car-invention.png" class="img-fluid" alt="">
+                                <span class="btn btn-sm invent-amount inv d-lg-block d-none">Amount<br><span class="amount"><b>$14,000</b></span></span>
+
+                                <span class="btn btn-sm invent-name inv d-none d-lg-block"><small>Invention</small><br><span class="amount"><b>Electric Car</b></span></span>
+                            </div>
+                            
+                        </div>
+                        <div class="col-9">
+                            <div class="">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p>Electric car</p>
+                                        <h3>Bayo Akintade</h3>
+                                        <div class="row" style="margin: auto;">
+                                            <span class="mr-2"><i class="material-icons md-18">favorite</i> 200</span>
+                                            <span class="mr-2"><i class="material-icons md-18">visibility</i> 200</span>
+                                            <span><a href="inventor/invention-details.html"><i class="material-icons md-18">link</i> visit</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="pull-right">
+                                            <img src="assets/images/man-img-sm.png" class="img-fluid" width="70" style="position: absolute; right: 0; margin-right: 15px;" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-12 hide-details">
+                                        <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum...</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row cc">
+                                            <div class="col-6">
+                                                <a class="" href="#" data-toggle="modal" data-target="#playVideo">
+                                                    <i class="material-icons md-18">play_circle_outline</i>
+                                                  <span class="menu-title">
+                                                    &nbsp;Play video
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a class="" href="#" data-toggle="modal" data-target="#playAudio">
+                                                    <i class="material-icons md-18">audiotrack</i>
+                                                  <span class="menu-title">
+                                                    &nbsp;Play audio
+                                                </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3 invention">
+                    <div class="row invent-details">
+                        <div class="col-3">
+                            <div class="">
+                                <img src="assets/images/car-invention.png" class="img-fluid" alt="">
+                                <span class="btn btn-sm invent-amount inv d-lg-block d-none">Amount<br><span class="amount"><b>$14,000</b></span></span>
+
+                                <span class="btn btn-sm invent-name inv d-none d-lg-block"><small>Invention</small><br><span class="amount"><b>Electric Car</b></span></span>
+                            </div>
+                            
+                        </div>
+                        <div class="col-9">
+                            <div class="">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p>Electric car</p>
+                                        <h3>Bayo Akintade</h3>
+                                        <div class="row" style="margin: auto;">
+                                            <span class="mr-2"><i class="material-icons md-18">favorite</i> 200</span>
+                                            <span class="mr-2"><i class="material-icons md-18">visibility</i> 200</span>
+                                            <span><a href="inventor/invention-details.html"><i class="material-icons md-18">link</i> visit</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="pull-right">
+                                            <img src="assets/images/man-img-sm.png" class="img-fluid" width="70" style="position: absolute; right: 0; margin-right: 15px;" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-12 hide-details">
+                                        <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum...</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row cc">
+                                            <div class="col-6">
+                                                <a class="" href="#" data-toggle="modal" data-target="#playVideo">
+                                                    <i class="material-icons md-18">play_circle_outline</i>
+                                                  <span class="menu-title">
+                                                    &nbsp;Play video
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a class="" href="#" data-toggle="modal" data-target="#playAudio">
+                                                    <i class="material-icons md-18">audiotrack</i>
+                                                  <span class="menu-title">
+                                                    &nbsp;Play audio
+                                                </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-3 invention">
+                    <div class="row invent-details">
+                        <div class="col-3">
+                            <div class="">
+                                <img src="assets/images/car-invention.png" class="img-fluid" alt="">
+                                <span class="btn btn-sm invent-amount inv d-lg-block d-none">Amount<br><span class="amount"><b>$14,000</b></span></span>
+
+                                <span class="btn btn-sm invent-name inv d-none d-lg-block"><small>Invention</small><br><span class="amount"><b>Electric Car</b></span></span>
+                            </div>
+                            
+                        </div>
+                        <div class="col-9">
+                            <div class="">
+                                <div class="row">
+                                    <div class="col-9">
+                                        <p>Electric car</p>
+                                        <h3>Bayo Akintade</h3>
+                                        <div class="row" style="margin: auto;">
+                                            <span class="mr-2"><i class="material-icons md-18">favorite</i> 200</span>
+                                            <span class="mr-2"><i class="material-icons md-18">visibility</i> 200</span>
+                                            <span><a href="inventor/invention-details.html"><i class="material-icons md-18">link</i> visit</a></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="pull-right">
+                                            <img src="assets/images/man-img-sm.png" class="img-fluid" width="70" style="position: absolute; right: 0; margin-right: 15px;" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-4">
+                                    <div class="col-12 hide-details">
+                                        <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum...</p>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="row cc">
+                                            <div class="col-6">
+                                                <a class="" href="#" data-toggle="modal" data-target="#playVideo">
+                                                    <i class="material-icons md-18">play_circle_outline</i>
+                                                  <span class="menu-title">
+                                                    &nbsp;Play video
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class="col-6">
+                                                <a class="" href="#" data-toggle="modal" data-target="#playAudio">
+                                                    <i class="material-icons md-18">audiotrack</i>
+                                                  <span class="menu-title">
+                                                    &nbsp;Play audio
+                                                </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center m-5">
+                    <button class="btn btn-primary btn-lg">Load more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search invention fixed bottom Modal -->
+    <div class="modal fade" id="searchInvention">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                <!-- <button type="button" class="close" data-dismiss="modal">×</button> -->
+                    <input type="text" class="form-control-lg br" placeholder="Search invention"/>
+                    <button class="btn btn-search">Search</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Play video Modal -->
+    <div class="modal fade" id="playVideo">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <iframe class="play-video" src="https://www.youtube.com/embed/lvV3jSLYK8A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <!-- Play audio Modal -->
+    <div class="modal fade" id="playAudio">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <iframe class="play-audio" src="https://www.youtube.com/embed/lvV3jSLYK8A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" style="background: rgba(4, 137, 199, 0.79);">
+        <!-- Footer Top -->
+        <div class="footer-top">
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-lg-4 col-12">
+                    <!-- Footer About -->
+                    <div class="single-widget footer-about widget">
+                    <div class="mb-4">
+                        <div class="img-logo">
+                            <img class="img-fluid" src="assets/images/logo-w.png" width="120" alt="logo">
+                        </div>
+                    </div>
+                    <div class="footer-widget-about-description">
+                        <p>Investors platform is a modern community that comprises of inventors and investors where creativity and innovation meets actualization, thereby benefiting both party, its society and the world at large.</p>
+                        <p>&copy; Investors 2021. All Rights Reserved.</p>
+                    </div>
+                    </div>
+                    <!--/ End Footer About -->
+                </div>
+                <div class="col-lg-8 col-12">
+                    <!-- Footer Links -->
+                    <div class="row">
+                        <div class="col-md-9 mb-5">
+                            <div class="br">
+                                <input type="text" class="form-control-lg br" placeholder="Enter your email address"/>
+                                <button class="btn btn-search">Subscribe</button>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-widget f-link widget">
+                            <h5 class="">Company</h5>
+                            <ul class=" list-unstyled">
+                                <li><nuxt-link to="#">About Us</nuxt-link></li>
+                                <li><nuxt-link to="#">Features</nuxt-link></li>
+                                <li><nuxt-link to="#">Contact </nuxt-link></li>
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-widget f-link widget">
+                            <h5 class="">Region</h5>
+                            <ul class=" list-unstyled">
+                                <li><nuxt-link to="#">About Us</nuxt-link></li>
+                                <li><nuxt-link to="#">Features</nuxt-link></li>
+                                <li><nuxt-link to="#">Contact </nuxt-link></li>
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-widget f-link widget">
+                            <h5 class="">Help</h5>
+                            <ul class=" list-unstyled">
+                                <li><nuxt-link to="#">About Us</nuxt-link></li>
+                                <li><nuxt-link to="#">Features</nuxt-link></li>
+                                <li><nuxt-link to="#">Contact </nuxt-link></li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--/ End Footer Links -->
+                </div>
+            </div>
+            
+        </div>
+        </div>
+    </footer>
+    <a href="#" class="post-invention" style="text-decoration: none;" data-toggle="modal" data-target="#searchInvention">
+        <img src="assets/images/search.png" class="mt-2 mr-3 mb-4" width="80" alt="">
+    </a>
+    <script src="assets/js/addons.js"></script>
+
+    <script src="https://use.fontawesome.com/a5104775bc.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 4,
+        centeredSlides: true,
+        spaceBetween: 30,
+        grabCursor: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        });
+    </script>
+
+</body>
+</html>

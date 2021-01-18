@@ -5,11 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Investors App</title>
-    <!-- plugins:css -->
-    <!-- endinject -->
-    <!-- plugin css for this page -->
-    <!-- End plugin css for this page -->
-    <!-- inject:css -->
     <link rel="stylesheet" href="assets/vendors/iconfonts/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
@@ -37,16 +32,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-right: 50px;">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active it">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item it">
-              <a class="nav-link" href="#">About Us</a>
+              <a class="nav-link" href="about.html">About Us</a>
             </li>
             <li class="nav-item it">
-                <a class="nav-link" href="#">All Inventions</a>
+                <a class="nav-link" href="all-invention.html">All Inventions</a>
             </li>
             <li class="nav-item it">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="contact.html">Contact Us</a>
             </li>
             <li class="nav-item" style="margin-top: 10px;">
                 <span class="dropdown">
@@ -355,14 +350,13 @@
             </div>
           </div>
         </div>
-      </section>
+    </section>
 
-      <a href="#" class="post-invention" data-toggle="modal" data-target="#searchInvention" style="text-decoration: none;">
+    <a href="#" class="post-invention" data-toggle="modal" data-target="#searchInvention" style="text-decoration: none;">
         <img src="assets/images/search.svg" class="mt-2 mr-3 mb-4" width="80" alt="">
-      <!-- <span class="pi">post invention</span> -->
-      </a>
+    </a>
 
-      <!-- The Modal -->
+      <!-- Search invention fixed bottom Modal -->
     <div class="modal fade" id="searchInvention">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -378,6 +372,7 @@
         </div>
     </div>
 
+    <!-- View invention modal button modal -->
     <div class="modal fade center" id="viewInvention">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -388,9 +383,9 @@
                         <div class="col-3">
                             <div class="">
                                 <img src="assets/images/car-invention.png" class="img-fluid" alt="">
-                                <span class="btn btn-sm invent-amount inv d-md-block d-none">Amount<br><span class="amount"><b>$14,000</b></span></span>
+                                <span class="btn btn-sm invent-amount inv d-lg-block d-none">Amount<br><span class="amount"><b>$14,000</b></span></span>
 
-                                <span class="btn btn-sm invent-name inv d-none d-md-block"><small>Invention</small><br><span class="amount"><b>Electric Car</b></span></span>
+                                <span class="btn btn-sm invent-name inv d-none d-lg-block"><small>Invention</small><br><span class="amount"><b>Electric Car</b></span></span>
                             </div>
                             
                         </div>
@@ -451,8 +446,11 @@
             </div>
         </div>
     </div>
+    <a href="#" class="post-invention" style="text-decoration: none;" data-toggle="modal" data-target="#searchInvention">
+        <img src="assets/images/search.png" class="mt-2 mr-3 mb-4" width="80" alt="">
+    </a>
 
-    <footer class="footer" style="background: rgba(4, 137, 199, 0.79);">
+    <footer class="footer bg-blue">
         <!-- Footer Top -->
         <div class="footer-top">
         <div class="container">
@@ -521,16 +519,8 @@
         </div>
     </footer>
     <!-- container-scroller -->
-    <!-- plugins:js -->
     <script src="assets/js/addons.js"></script>
-
-    <script src="assets/js/off-canvas.js"></script>
-
-    <!-- Custom js for this page-->
-    <script src="assets/js/dashboard.js"></script>
-    <!-- End custom js for this page-->
-    <script src="../assets/js/jquery.cookie.js" type="text/javascript"></script>
-
+    <!-- Script for the swiper -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
     var swiper = new Swiper('.swiper-container', {
@@ -543,7 +533,9 @@
         clickable: true,
       },
     });
-  </script>
+</script>
+
+  <!-- Script for statistic counter -->
   <script>
 
     $(window).scroll(testScroll);
@@ -560,21 +552,21 @@
     }
 
     function testScroll() {
-  if (isScrolledIntoView($(".stat-details")) && !viewed) {
-      viewed = true;
-      $('.count').each(function () {
-      $(this).prop('Counter',0).animate({
-          Counter: $(this).text()
-      }, {
-          duration: 10000,
-          easing: 'swing',
-          step: function (now) {
-            $(this).text(Math.ceil(now).toLocaleString('en'));
-          }
-      });
-    });
-  }
-}
+        if (isScrolledIntoView($(".stat-details")) && !viewed) {
+            viewed = true;
+            $('.count').each(function () {
+            $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 10000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now).toLocaleString('en'));
+                }
+            });
+            });
+        }
+    }
  </script>
   </body>
 </html>
