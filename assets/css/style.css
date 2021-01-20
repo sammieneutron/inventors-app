@@ -1042,7 +1042,7 @@ select > option {
   right: 0;
   background-color: #FF0044;
   color: #fff;
-  margin-top: -54px;
+  margin-top: -58px;
   margin-right: 15px;
   padding: 15px 30px;
   border-radius: 15px;
@@ -1051,7 +1051,7 @@ select > option {
 
 .form-control-lg {
   width: 100%;
-  height: 55px;
+  height: 70px;
   background-color: #fff;
   border: none;
   border-radius: 20px;
