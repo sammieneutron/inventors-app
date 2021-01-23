@@ -773,3 +773,7 @@
 .card-div-link a:hover {
   background-color: thistle;
 }
+
+.form-control {
+  width: 100% !important;
+}
